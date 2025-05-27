@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Sumit-Saurabh-s-workspace-4ge2tf.us-east-1.xata.sh/db/recordfree",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
