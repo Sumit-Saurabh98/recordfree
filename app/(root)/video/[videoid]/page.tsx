@@ -7,8 +7,9 @@ import { getTranscript, getVideoById } from "@/lib/actions/video";
 const page = async ({ params }: Params) => {
   const { videoId } = await params;
 
-  const { user, video } = await getVideoById(videoId);
-  if (!video) redirect("/404");
+  const videoRecord = await getVideoById(videoId);
+if (!videoRecord) redirect("/404");
+const { video, user } = videoRecord;
 
   const transcript = await getTranscript(videoId);
 
