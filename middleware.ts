@@ -14,7 +14,6 @@ export async function middleware(request: NextRequest) {
 
   return NextResponse.next();
 }
-// suspisious activity and bot decetion
 const validate = aj
   .withRule(
     shield({
