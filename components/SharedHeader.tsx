@@ -7,8 +7,8 @@ import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import RecordScreen from "./RecordScreen";
 import { filterOptions } from "@/constants";
 import ImageWithFallback from "./ImageWithFallback";
-import DropdownList from "./DropdownList";
 import { updateURLParams } from "@/lib/utils";
+import DropdownList from "./DropdownList";
 
 const SharedHeader = ({ subHeader, title, userImg }: SharedHeaderProps) => {
   const router = useRouter();
