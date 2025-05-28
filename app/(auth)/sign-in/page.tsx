@@ -12,7 +12,7 @@ const SignIn = () => {
         <Link href="/">
           <Image
             src="/assets/icons/logo.svg"
-            alt="SnapChat Logo"
+            alt="FreeRecord Logo"
             width={32}
             height={32}
           />
@@ -38,8 +38,8 @@ const SignIn = () => {
             </p>
             <article>
               <Image
-                src="/assets/images/jason.png"
-                alt="Jason"
+                src="/assets/images/sarah.png"
+                alt="sarah"
                 width={64}
                 height={64}
                 className="rounded-full"
