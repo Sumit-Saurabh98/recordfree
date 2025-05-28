@@ -8,7 +8,7 @@ import RecordScreen from "./RecordScreen";
 import { filterOptions } from "@/constants";
 import ImageWithFallback from "./ImageWithFallback";
 import { updateURLParams } from "@/lib/utils";
-import DropdownList from "./DropdownList";
+import DropdownList from "@/components/DropdownList";
 
 const SharedHeader = ({ subHeader, title, userImg }: SharedHeaderProps) => {
   const router = useRouter();

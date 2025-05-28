@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
 import { visibilities } from "@/constants";
 import ImageWithFallback from "./ImageWithFallback";
-import DropdownList from "./DropdownList";
+import DropdownList from "@/components/DropdownList";
 
 const VideoDetailHeader = ({
   title,
