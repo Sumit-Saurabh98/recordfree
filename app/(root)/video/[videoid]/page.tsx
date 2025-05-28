@@ -8,6 +8,7 @@ const page = async ({ params }: Params) => {
   const { videoId } = await params;
 
   const videoRecord = await getVideoById(videoId);
+  console.log(videoRecord, "bc teri ma ki chut");
 if (!videoRecord) redirect("/404");
 const { video, user } = videoRecord;
 
