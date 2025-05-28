@@ -8,18 +8,22 @@
 
 ## 📸 Screenshots
 
-some screenshots below:_
-##Sign-in page
+**Sign-in page**
 <img width="1239" alt="Screenshot 2025-05-28 at 8 03 58 PM" src="https://github.com/user-attachments/assets/0e5d0034-39ee-45b0-8db6-56e29180b9d0" />
-##Landing page
-<img width="1239" alt="Screenshot 2025-05-28 at 8 04 25 PM" src="https://github.com/user-attachments/assets/d99afd3b-fca7-498d-80b6-4f1166538d9a" />
-## Video Upload page
-<img width="1239" alt="Screenshot 2025-05-28 at 8 04 36 PM" src="https://github.com/user-attachments/assets/9dc6eb90-1f7d-4100-a393-26c6e080101c" />
-## Screen Recording page
 
-## Video Upload page
+**Video List page**
+<img width="1239" alt="Screenshot 2025-05-28 at 8 04 25 PM" src="https://github.com/user-attachments/assets/d99afd3b-fca7-498d-80b6-4f1166538d9a" />
+
+**Video Upload page**
+<img width="1239" alt="Screenshot 2025-05-28 at 8 04 36 PM" src="https://github.com/user-attachments/assets/9dc6eb90-1f7d-4100-a393-26c6e080101c" />
+
+**Screen Recording page**
 <img width="1239" alt="Screenshot 2025-05-28 at 8 04 48 PM" src="https://github.com/user-attachments/assets/c20a1283-ea26-4aeb-ae4a-77ec28122797" />
+
+**Video Player page**
 <img width="1239" alt="Screenshot 2025-05-28 at 8 13 54 PM" src="https://github.com/user-attachments/assets/bb0ef2ea-9908-4879-80ec-5f2f1c1324a4" />
+
+**User Profile page**
 <img width="1239" alt="Screenshot 2025-05-28 at 8 05 04 PM" src="https://github.com/user-attachments/assets/a82c2fbe-e20b-4be6-a685-44dbd6fa32d3" />
 
 
@@ -69,15 +73,36 @@ some screenshots below:_
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/recordfree.git
+git clone https://github.com/sumit-saurabh98/recordfree.git
 cd recordfree
 
 # Install dependencies
 npm install
 
 # Set environment variables
-cp .env.example .env
-# Update the .env file with your credentials
+#Better auth
+BETTER_AUTH_SECRET=
+BETTER_AUTH_URL=http://localhost:3000
+
+#Google
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+#xata database
+XATA_API_KEY=
+DATABASE_URL_POSTGRES=
+DATABASE_URL=
+
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+
+#Bunny
+
+BUNNY_STORAGE_ACCESS_KEY=
+BUNNY_LIBRARY_ID=
+BUNNY_STREAM_ACCESS_KEY=
+
+#Arcjet
+ARCJET_API_KEY=
 
 # Run the development server
 npm run dev
