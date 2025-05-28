@@ -3,9 +3,13 @@ import VideoDetailHeader from "@/components/VideoDetailHeader";
 import VideoInfo from "@/components/VideoInfo";
 import VideoPlayer from "@/components/VideoPlayer";
 import { getTranscript, getVideoById } from "@/lib/actions/video";
-
+type Params = {
+  params: {
+    videoId: string;
+  };
+};
 const page = async ({ params }: Params) => {
-  const { videoId } = await params;
+  const { videoId } = params;
 
   console.log(videoId, "bc -> videoID");
   const videoRecord = await getVideoById(videoId);
