@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import ImageWithFallback from "@/components/ImageWithFallback";
+import ImageWithFallback from "./ImageWithFallback";
 import Link from "next/link";
 import { useState } from "react";
 

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { redirect, useRouter } from "next/navigation";
 
 import { authClient } from "@/lib/auth-client";
-import ImageWithFallback from "@/components/ImageWithFallback"
+import ImageWithFallback from "./ImageWithFallback"
 const Navbar = () => {
   const router = useRouter();
   const { data: session } = authClient.useSession();
