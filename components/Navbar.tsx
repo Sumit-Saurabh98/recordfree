@@ -4,7 +4,7 @@ import Link from "next/link";
 import { redirect, useRouter } from "next/navigation";
 
 import { authClient } from "@/lib/auth-client";
-import ImageWithFallback from "./ImageWithFallback";
+import ImageWithFallback from "@/components/ImageWithFallback"
 const Navbar = () => {
   const router = useRouter();
   const { data: session } = authClient.useSession();
@@ -20,7 +20,7 @@ const Navbar = () => {
             width={32}
             height={32}
           />
-          <h1>SnapCast</h1>
+          <h1>RecordFree</h1>
         </Link>
 
         {user && (

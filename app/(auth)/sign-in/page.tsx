@@ -16,7 +16,7 @@ const SignIn = () => {
             width={32}
             height={32}
           />
-          <h1>SnapCast</h1>
+          <h1>RecordFree</h1>
         </Link>
 
         <div className="description">
@@ -33,7 +33,7 @@ const SignIn = () => {
               ))}
             </figure>
             <p>
-            SnapCast makes screen recording easy. From quick walkthroughs to
+            RecordFree makes screen recording easy. From quick walkthroughs to
               full presentations, it&apos;s fast, smooth, and shareable in seconds
             </p>
             <article>
@@ -51,7 +51,7 @@ const SignIn = () => {
             </article>
           </section>
         </div>
-        <p>© Snapcast 2025</p>
+        <p>© RecordFree 2025</p>
       </aside>
       <aside className="google-sign-in">
         <section>
@@ -62,10 +62,10 @@ const SignIn = () => {
               width={40}
               height={40}
             />
-            <h1>SnapCast</h1>
+            <h1>RecordFree</h1>
           </Link>
           <p>
-            Create and share your very first <span>SnapCast video</span> in no
+            Create and share your very first <span>RecordFree video</span> in no
             time!
           </p>
 

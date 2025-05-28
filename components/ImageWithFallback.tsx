@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const ImageWithFallback = ({
-  fallback = "/assets/images/dummy.jpg",
+  fallback = "",
   alt,
   src,
   ...props

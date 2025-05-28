@@ -1,4 +1,9 @@
-import { EmptyState, Pagination, SharedHeader, VideoCard } from "@/components";
+
+import EmptyState from "@/components/EmptyState";
+import Pagination from "@/components/Pagination";
+import SharedHeader from "@/components/SharedHeader";
+import VideoCard from "@/components/VideoCard";
+
 import { getAllVideos } from "@/lib/actions/video";
 
 const page = async ({ searchParams }: SearchParams) => {
