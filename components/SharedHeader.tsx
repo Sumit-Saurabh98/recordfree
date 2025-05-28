@@ -8,7 +8,7 @@ import RecordScreen from "./RecordScreen";
 import { filterOptions } from "@/constants";
 import ImageWithFallback from "./ImageWithFallback";
 import { updateURLParams } from "@/lib/utils";
-import DropdownList from "./DropdownList";
+import DropDownList from "./DropDownList";
 
 const SharedHeader = ({ subHeader, title, userImg }: SharedHeaderProps) => {
   const router = useRouter();
@@ -117,7 +117,7 @@ const SharedHeader = ({ subHeader, title, userImg }: SharedHeaderProps) => {
             height={16}
           />
         </div>
-        <DropdownList
+        <DropDownList
           options={filterOptions}
           selectedOption={selectedFilter}
           onOptionSelect={handleFilterChange}

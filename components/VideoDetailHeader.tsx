@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
 import { visibilities } from "@/constants";
 import ImageWithFallback from "./ImageWithFallback";
-import DropdownList from "./DropdownList";
+import DropDownList from "./DropDownList";
 
 const VideoDetailHeader = ({
   title,
@@ -129,7 +129,7 @@ const VideoDetailHeader = ({
                 <p>Updating...</p>
               </div>
             ) : (
-              <DropdownList
+              <DropDownList
                 options={visibilities}
                 selectedOption={visibilityState}
                 onOptionSelect={handleVisibilityChange}

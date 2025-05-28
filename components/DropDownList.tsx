@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import { cn } from "@/lib/utils";
 
-const DropdownList = ({
+const DropDownList = ({
   options,
   selectedOption,
   onOptionSelect,
@@ -51,4 +51,4 @@ const DropdownList = ({
   );
 };
 
-export default DropdownList;
+export default DropDownList;
