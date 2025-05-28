@@ -6,8 +6,8 @@ import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
 import { visibilities } from "@/constants";
-import DropdownList from "./DropdownList";
 import ImageWithFallback from "./ImageWithFallback";
+import DropdownList from "./DropdownList";
 
 const VideoDetailHeader = ({
   title,
