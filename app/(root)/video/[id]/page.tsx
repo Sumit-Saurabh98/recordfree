@@ -6,10 +6,7 @@ import { getTranscript, getVideoById } from "@/lib/actions/video";
 
 const page = async ({ params }: { params: { id: string } }) => {
   const videoId = params.id;
-
-  console.log(videoId, "bc -> videoID");
   const videoRecord = await getVideoById(videoId);
-  console.log(videoRecord, "bc teri ma ki chut");
   if (!videoRecord) redirect("/404");
   const { video, user } = videoRecord;
 

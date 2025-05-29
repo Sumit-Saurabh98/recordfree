@@ -26,27 +26,28 @@
 **User Profile page**
 <img width="1239" alt="Screenshot 2025-05-28 at 8 05 04 PM" src="https://github.com/user-attachments/assets/a82c2fbe-e20b-4be6-a685-44dbd6fa32d3" />
 
-
-
 ## 🛠️ Tech Stack
 
-- **Frontend:**  
+- **Frontend:**
+
   - [Next.js 15](https://nextjs.org/)
   - [React 19](https://react.dev/)
   - [Tailwind CSS 4](https://tailwindcss.com/)
   - [clsx](https://www.npmjs.com/package/clsx) for conditional class names
 
-- **Backend / Server-side:**  
+- **Backend / Server-side:**
+
   - [Drizzle ORM](https://orm.drizzle.team/) with PostgreSQL
   - [Xata](https://xata.io/) for fast, scalable database solutions
 
-- **Auth & Security:**  
+- **Auth & Security:**
+
   - [Better Auth](https://www.npmjs.com/package/better-auth) for authentication
   - Google Authentication via OAuth
   - Rate limiting & spam/bot protection via [@arcjet](https://arcjet.com/)
   - Email validation for disposable/temp emails
 
-- **Dev Tools:**  
+- **Dev Tools:**
   - TypeScript
   - ESLint
   - Dotenv for environment variables
@@ -106,3 +107,4 @@ ARCJET_API_KEY=
 
 # Run the development server
 npm run dev
+```
